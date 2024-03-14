@@ -48,7 +48,7 @@ a {
 	margin-bottom: 20px;
 }
 .title{
-	
+
 }
 .ms_registration {
 	line-height: 40px;
@@ -113,4 +113,30 @@ footer p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+.star-delineator{
+	width: fit-content;
+	font-size: 30px;
+	color: white;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.star-delineator .delineator {
+	height: 4px;
+	width: 6vw;
+	background-color: white;
+	border-radius: 2px;
+	margin: 0 10px;
+	max-width: 150px;
+}
+.ms_portfolio .star-delineator,
+.ms_contact .star-delineator{
+	color: #3a546d;
+}
+.ms_portfolio .delineator,
+.ms_contact .delineator{
+	background-color: #3a546d;
 }
